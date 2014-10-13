@@ -19,4 +19,4 @@ RUN chmod +x /usr/local/bin/stop
 
 EXPOSE 80
 
-CMD /usr/local/bin/start && - tail -F /var/log/httpd/*
+CMD /usr/local/bin/start && tail -F /var/log/httpd/*
