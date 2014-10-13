@@ -17,4 +17,4 @@ RUN chmod +x /usr/local/bin/start
 ADD stop.sh /usr/local/bin/stop
 RUN chmod +x /usr/local/bin/stop
 
-CMD ["/usr/local/bin/start"]
+CMD /usr/local/bin/start && - tail -F /var/log/httpd/*
