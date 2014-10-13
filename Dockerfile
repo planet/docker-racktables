@@ -17,4 +17,6 @@ RUN chmod +x /usr/local/bin/start
 ADD stop.sh /usr/local/bin/stop
 RUN chmod +x /usr/local/bin/stop
 
+EXPOSE 80
+
 CMD /usr/local/bin/start && - tail -F /var/log/httpd/*
