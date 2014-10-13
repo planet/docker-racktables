@@ -6,3 +6,5 @@ service mysqld start
 cat <<EOF >~/.bashrc
 trap '/usr/local/bin/stop; exit 0' TERM
 EOF
+
+tail /var/log/httpd/*
