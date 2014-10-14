@@ -1,4 +1,4 @@
-#!/bin/bash\
+#!/bin/bash
 
 secret=/var/www/html/inc/secret.php
 
